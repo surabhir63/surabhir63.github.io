@@ -489,3 +489,33 @@ footer {
         gap: 1rem;
     }
 }
+
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.skill-category {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.skill-category h4 {
+    margin-bottom: 0.5rem;
+    color: var(--sage);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.skill-category .skill {
+    display: inline-block;
+    margin: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    background: var(--dark-green);
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
