@@ -698,7 +698,7 @@ footer {
     align-items: center;
     justify-content: center;
     background: #f8f9fa;
-    border-radius: 50%;
+    border-radius: 10px;
     padding: 15px;
 }
 
