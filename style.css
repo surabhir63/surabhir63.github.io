@@ -30,7 +30,7 @@ body {
     color: var(--text);
     line-height: 1.6;
     background-image: url('images/floral-bg.png');
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
     background-position: center;
