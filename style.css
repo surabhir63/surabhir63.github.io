@@ -30,11 +30,11 @@ body {
     color: var(--text);
     line-height: 1.6;
     background-image: url('images/floral-bg.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: contain;
     background-attachment: fixed;
     background-position: center;
-    background-color: rgba(245, 245, 240, 0.50); /* Increased from 0.85 */
+    background-color: rgba(245, 245, 240, 0.90); /* Increased from 0.85 */
     background-blend-mode: overlay;
     /* Removed opacity: 0.12 (it was making ALL content transparent!) */
 }
@@ -43,7 +43,7 @@ body {
 @media (max-width: 768px) {
     body {
         background-size: 350px; /* Larger pattern = less density */
-        background-color: rgba(245, 245, 240, 0.50); /* More opaque to mute florals */
+        background-color: rgba(245, 245, 240, 0.90); /* More opaque to mute florals */
     }
 }
 
