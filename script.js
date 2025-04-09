@@ -96,3 +96,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+// In your modal or script.js
+const posterUrl = 'pdf/RIS%20Poster.pdf'; // URL-encoded space
+
+// Or using encodeURIComponent()
+const fileName = 'RIS Poster.pdf';
+const safeUrl = 'pdf/' + encodeURIComponent(fileName); // becomes "pdf/RIS%20Poster.pdf"
