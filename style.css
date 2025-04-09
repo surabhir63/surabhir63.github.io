@@ -117,6 +117,17 @@ nav a:hover::after {
     z-index: -1;
 }
 
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid var(--white);
+    box-shadow: 0 5px 15px rgba(122, 117, 99, 0.2);
+    outline: 2px solid var(--sage-light);
+    margin-bottom: 2rem;
+}
+
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
