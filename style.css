@@ -42,11 +42,12 @@ body {
 /* Mobile-specific adjustment */
 @media (max-width: 768px) {
     body {
-        background-size: cover;
-        background-position: center;
+        background-image: url('images/floral-bg.png');
         background-repeat: no-repeat;
-        background-attachment: fixed; /* Optional: keeps it in place */
-        background-color: rgba(245, 245, 240, 0.85); /* More opaque to mute florals */
+        background-size: cover;
+        background-attachment: scroll; /* ✅ Changed from fixed to scroll */
+        background-color: rgba(245, 245, 240, 0.85); /* ✅ More visible */
+        background-blend-mode: normal; /* ✅ Reset from overlay */
     }
 }
 
