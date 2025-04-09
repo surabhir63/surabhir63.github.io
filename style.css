@@ -258,7 +258,7 @@ nav a:hover::after {
     align-items: center;
     margin: 1rem 0;
     padding: 1.2rem;
-    background: rgba(255,255,255,0.03);
+    background: none;
     border-radius: 12px;
     border-left: 3px solid var(--accent);
 }
