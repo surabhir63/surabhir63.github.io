@@ -47,13 +47,6 @@ body {
     }
 }
 
-/* Optional: Add subtle animation for depth */
-@keyframes subtleMove {
-    0% { background-position: 0 0; }
-    50% { background-position: 50px 50px; }
-    100% { background-position: 0 0; }
-}
-
 h1, h2, h3 {
     font-weight: 700;
     color: var(--sage-dark);
