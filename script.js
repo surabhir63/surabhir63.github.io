@@ -53,14 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Project descriptions data (match with your project order)
     const projectDescriptions = [
         // Project 1
-        `<p><strong>Technologies:</strong> Python, TensorFlow, Wireless InSite, Stable-Baselines3</p>
-        <p>Developed an AI-driven RIS system for 6G networks that optimizes signal propagation in real-time using reinforcement learning. The system:</p>
-        <ul>
-            <li>Improved signal strength by 35% in simulated urban environments</li>
-            <li>Reduced power consumption by 22% through dynamic beamforming</li>
-            <li>Implemented a custom DQN algorithm for environment adaptation</li>
-        </ul>
-        <p>This was my senior design capstone project completed over 8 months with a team of 4 engineers.</p>`,
+        <iframe src="images/RIS%20poster.pdf" width="100%" height="600px" style="border:none;"></iframe>`,
         
         // Project 2
         `<p><strong>Technologies:</strong> Unity, C#, Arduino, Motion Sensors</p>
