@@ -178,15 +178,16 @@ nav a:hover::after {
     font-size: 3.5rem;
     margin-bottom: 1rem;
     color: var(--sage-dark);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.05);
     letter-spacing: 1px;
 }
 
 .subtitle {
     font-size: 1.5rem;
     margin-bottom: 2rem;
-    color: var(--sage);
+    color: var(--sage-dark);
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 /* Sections */
