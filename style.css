@@ -34,7 +34,7 @@ body {
     background-size: contain;
     background-attachment: fixed;
     background-position: center;
-    background-color: rgba(245, 245, 240, 0.90); /* Increased from 0.85 */
+    background-color: rgba(245, 245, 240, 0.60); /* Increased from 0.85 */
     background-blend-mode: overlay;
     /* Removed opacity: 0.12 (it was making ALL content transparent!) */
 }
@@ -43,7 +43,7 @@ body {
 @media (max-width: 768px) {
     body {
         background-size: 350px; /* Larger pattern = less density */
-        background-color: rgba(245, 245, 240, 0.90); /* More opaque to mute florals */
+        background-color: rgba(245, 245, 240, 0.60); /* More opaque to mute florals */
     }
 }
 
@@ -206,7 +206,7 @@ nav a:hover::after {
 .section-title {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     position: relative;
     color: var(--sage-dark);
 }
@@ -255,7 +255,7 @@ nav a:hover::after {
 .quote-container {
     display: flex;
     align-items: center;
-    margin: 1.8rem 0;
+    margin: 1rem 0;
     padding: 1.2rem;
     background: rgba(255,255,255,0.03);
     border-radius: 12px;
