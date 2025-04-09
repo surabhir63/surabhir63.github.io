@@ -34,9 +34,17 @@ body {
     background-size: 250px;
     background-attachment: fixed;
     background-position: center;
-    background-color: rgba(245, 245, 240, 0.85);
-    background-blend-mode: overlay
-    opacity: 0.12;
+    background-color: rgba(245, 245, 240, 0.92); /* Increased from 0.85 */
+    background-blend-mode: overlay;
+    /* Removed opacity: 0.12 (it was making ALL content transparent!) */
+}
+
+/* Mobile-specific adjustment */
+@media (max-width: 768px) {
+    body {
+        background-size: 350px; /* Larger pattern = less density */
+        background-color: rgba(245, 245, 240, 0.96); /* More opaque to mute florals */
+    }
 }
 
 /* Optional: Add subtle animation for depth */
