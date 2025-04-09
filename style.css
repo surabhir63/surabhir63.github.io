@@ -42,7 +42,7 @@ body {
 /* Mobile-specific adjustment */
 @media (max-width: 768px) {
     body {
-        background-image: url('images/floral-bg.png');
+        background-image: url('images/floral-bg-vertical.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: scroll; /* ✅ Changed from fixed to scroll */
