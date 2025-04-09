@@ -119,16 +119,33 @@ nav a:hover::after {
 }
 
 @media (max-width: 768px) {
+    header {
+        height: auto;              /* allow it to grow when nav wraps */
+        padding: 1rem 0;           /* add vertical spacing */
+    }
+
+    nav {
+        flex-wrap: wrap;           /* allow nav container to wrap too */
+        padding: 1rem;
+    }
+
     nav ul {
-        gap: 1.2rem;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 1rem;
+        text-align: center;
     }
-    
+
     nav li {
         margin-bottom: 0.5rem;
     }
+
+    nav a {
+        font-size: 0.95rem;
+        padding: 0.3rem 0.6rem;   /* optional: make links more compact */
+    }
 }
+
 
 /* Hero Section */
 .hero {
