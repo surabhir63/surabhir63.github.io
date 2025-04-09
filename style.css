@@ -662,75 +662,81 @@ footer {
 }
 
 /* Experience Section */
-.experience-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+/* Experience Section - 2x2 Grid */
+.experience-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.experience-card {
+.experience-row {
     display: flex;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 30px;
 }
 
-.experience-card:hover {
+.experience-tile {
+    flex: 1;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-tile:hover {
     transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
 }
 
 .company-logo {
-    padding: 20px;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #f8f9fa;
-    min-width: 120px;
+    border-radius: 50%;
+    padding: 15px;
 }
 
 .company-logo img {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.experience-info {
-    padding: 20px;
-    flex-grow: 1;
-}
-
-.experience-info h3 {
+.experience-details h3 {
     margin: 0 0 5px 0;
-    color: #333;
+    color: #2c3e50;
+    font-size: 1.3em;
 }
 
-.experience-info h4 {
+.experience-details h4 {
     margin: 0 0 10px 0;
-    color: #555;
-    font-weight: normal;
+    color: #7f8c8d;
+    font-weight: 500;
+    font-size: 1.1em;
 }
 
-.experience-info .date {
-    color: #777;
+.experience-details .date {
+    color: #95a5a6;
     font-size: 0.9em;
     margin-bottom: 15px;
     display: block;
 }
 
-.experience-info .responsibilities {
-    margin: 0 0 15px 0;
+.experience-details .responsibilities {
+    margin: 15px 0;
     padding-left: 20px;
 }
 
-.experience-info .responsibilities li {
-    margin-bottom: 5px;
+.experience-details .responsibilities li {
+    margin-bottom: 8px;
+    color: #34495e;
     font-size: 0.95em;
-    color: #444;
+    line-height: 1.5;
 }
 
 .tech-used {
@@ -741,18 +747,17 @@ footer {
 }
 
 .tech-used span {
-    background: #e9ecef;
-    padding: 3px 10px;
+    background: #ecf0f1;
+    padding: 4px 12px;
     border-radius: 20px;
     font-size: 0.8em;
-    color: #495057;
+    color: #2c3e50;
 }
 
-/* Hero button styling */
-.btn-experience {
-    background: #6c757d;
-}
-
-.btn-experience:hover {
-    background: #5a6268;
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .experience-row {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
