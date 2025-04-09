@@ -149,15 +149,20 @@ nav a:hover::after {
 }
 
 .hero-content {
-    max-width: 800px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Forces horizontal centering */
+    width: 100%; /* Ensures full-width alignment */
 }
 
 .floral-icon {
     width: 80px;
-    margin: 2rem auto;
-    display: block;
+    margin: 1.5rem auto; /* Top/bottom margin + auto horizontal centers it */
+    display: block; /* Critical for centering */
     opacity: 0.8;
+    position: relative; /* Ensures no parent overflow issues */
+    left: 0; /* Resets any accidental positioning */
+    right: 0; /* Resets any accidental positioning */
 }
 
 .hero h1 {
