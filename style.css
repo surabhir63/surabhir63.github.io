@@ -42,7 +42,10 @@ body {
 /* Mobile-specific adjustment */
 @media (max-width: 768px) {
     body {
-        background-size: 350px; /* Larger pattern = less density */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Optional: keeps it in place */
         background-color: rgba(245, 245, 240, 0.60); /* More opaque to mute florals */
     }
 }
