@@ -664,6 +664,33 @@ footer {
     font-size: 0.8rem;
 }
 
+/* Download-Poster-btn */
+.Download-Poster-btn {
+    background: var(--sage-light);
+    color: var(--sage-dark);
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Download-Poster-btn:hover {
+    background: var(--accent);
+    color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: 0 3px 10px rgba(138, 155, 110, 0.3);
+}
+
+.Download-Poster-btn i {
+    font-size: 0.8rem;
+}
 /* Experience Section */
 /* Experience Section - 2x2 Grid */
 .experience-container {
