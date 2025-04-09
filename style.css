@@ -554,6 +554,13 @@ nav a:hover::after {
     box-shadow: 0 5px 15px rgba(122, 117, 99, 0.3);
 }
 
+@media (max-width: 768px) {
+    .btn {
+        padding: 0.6rem 1.4rem;
+        font-size: 0.95rem;
+    }
+}
+
 /* Footer */
 footer {
     text-align: center;
