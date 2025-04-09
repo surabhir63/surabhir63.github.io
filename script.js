@@ -53,16 +53,21 @@ document.addEventListener('DOMContentLoaded', function() {
     // Project descriptions data (match with your project order)
     const projectDescriptions = [
         // Project 1
-        <iframe src="images/RIS%20poster.pdf" width="100%" height="600px" style="border:none;"></iframe>`,
+        `<div class="pdf-container">
+        <iframe src="images/RIS%20poster.pdf" width="100%" height="600px" style="border:none;"></iframe>
+    </div>`,
         
-        // Project 2
-        `<p><strong>Technologies:</strong> Unity, C#, Arduino, Motion Sensors</p>
+        // Project 2 (HackZurich) - keep description
+    `<div class="project-details">
+        <h4>Office Playground Project</h4>
         <p>Created an immersive office wellness experience for HackZurich 2022 that:</p>
         <ul>
             <li>Transformed physical movements into in-game actions</li>
             <li>Integrated real-time motion tracking with Unity visualization</li>
             <li>Won 2nd place in the workplace innovation category</li>
-        </ul>`,
+        </ul>
+        <p><strong>Technologies:</strong> Unity, C#, Arduino, Motion Sensors</p>
+    </div>`,
         
         // Add descriptions for other projects in the same order
     ];
