@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const projectDescriptions = [
         // Project 1
         `<div class="pdf-container">
-        <iframe src="images/RIS%20poster.pdf" width="100%" height="600px" style="border:none;"></iframe>
+        <iframe src="images/RIS%20Poster.pdf" width="100%" height="600px" style="border:none;"></iframe>
     </div>`,
         
         // Project 2 (HackZurich) - keep description
