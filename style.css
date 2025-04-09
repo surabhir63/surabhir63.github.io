@@ -367,6 +367,10 @@ nav a:hover::after {
     transition: all 0.3s ease;
     position: relative;
     border: 1px solid var(--sage-light);
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .project-card:hover {
@@ -411,6 +415,9 @@ nav a:hover::after {
 
 .project-info {
     padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .project-info h3 {
