@@ -128,18 +128,21 @@ document.addEventListener('DOMContentLoaded', function() {
             modalTitle.textContent = title;
             modalContent.innerHTML = projectDescriptions[index];
             modal.classList.add('active');
+            document.body.style.overflow = 'hidden'; // Prevent background scroll
         });
     });
 
     // Close modal functionality
     document.querySelector('.close-modal').addEventListener('click', () => {
         modal.classList.remove('active');
+        document.body.style.overflow = ''; // Restore scroll
     });
 
     // Close when clicking outside modal
     modal.addEventListener('click', (e) => {
         if (e.target === modal) {
             modal.classList.remove('active');
+            document.body.style.overflow = ''; // Restore scroll
         }
     });
 });
