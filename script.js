@@ -56,23 +56,22 @@ document.addEventListener('DOMContentLoaded', function() {
   // Project 2 (HackZurich) - keep description
     `<div class="project-details">
     <h4>Office Playground – HackZurich 2022</h4>
-    <p>Developed an interactive Unity game that transforms the office into a collaborative, safety-focused digital playground. Built during HackZurich 2022, the project aimed to promote workplace well-being and spatial awareness through immersive gameplay. The system features:</p>
+    <p>Developed an interactive Unity game that transforms the office into a collaborative, safety-focused digital playground. Built during HackZurich 2022, the project aimed to promote workplace safety through immersive gameplay. The system features:</p>
     <ul>
-        <li>Character navigation and movement through a 3D office environment</li>
+        <li>Character navigation and movement through a 2D office environment</li>
         <li>Proximity-based task activation and real-time hazard detection</li>
         <li>Dynamic visibility toggling to simulate emergency scenarios like fires or blocked exits</li>
         <li>Task list tracking and progress feedback for user engagement</li>
-        <li>Co-op mini games to promote collaboration and friendly competition</li>
-        <li>Teleportation portals, interactive perks, and gamified office challenges</li>
+        <li>Co-op mini games like tic-tac-toe to promote collaboration and friendly competition</li>
     </ul>
-    <p>Won <strong>2nd place in the Workplace Innovation category</strong> at HackZurich 2022 for creatively reimagining the modern office environment through gamification and real-time interaction.</p>
+    <p>Selected as Top:15 place in the Workplace Innovation category for Merkle </strong> at HackZurich 2022 for creatively reimagining the modern office environment through gamification and real-time interaction.</p>
     <p><strong>Technologies:</strong> Unity, C#, ShaderLab, HLSL, Git, Visual Studio</p>
 </div>`
 ,
 
     `<div class="project-details">
     <h4>Computer Vision Target Detection</h4>
-    <p>Designed a statistical analysis framework to evaluate and enhance a machine vision system’s ability to detect targets in noisy environments. The project focused on improving binary classification of "target present" vs. "target absent" data using signal modeling and performance analysis techniques. Key contributions include:</p>
+    <p>Designed a statistical analysis framework to evaluate and enhance a machine vision system’s ability to detect targets in noisy environments. The project focused on improving classification of "target present" vs. "target absent" data using signal modeling and performance analysis techniques. Key contributions include:</p>
     <ul>
         <li>Conducted ROC analysis to find the optimal detection threshold and quantify system performance using AUC</li>
         <li>Modeled data distributions using hypothesis testing and identified Gamma (target absent) and Rician (target present) as best fits via χ² tests</li>
@@ -95,20 +94,28 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
     `<div class="project-details">
-    <h4>Arduino Smart Car</h4>
-    <p>Built a fully integrated smart car system using Arduino that combines autonomous driving with interactive sensor-based features. The vehicle demonstrates multi-sensor fusion and control through real-time environmental input. Key capabilities include:</p>
-    <ul>
-        <li>Gyroscope-based motion control using the MPU6050 sensor to direct the car based on tilt and orientation</li>
-        <li>Ultrasonic obstacle detection and avoidance using the HC-SR04 sensor</li>
-        <li>RFID-based user authentication system using the MFRC522 module</li>
-        <li>Real-time temperature and humidity display on an LCD using the DHT11 sensor</li>
-        <li>IR remote control for manual movement and LED headlight toggling</li>
-        <li>Audible buzzer feedback and system alerts</li>
-        <li>Modular code structure using PlatformIO with reusable headers, libraries, and clean logic flow</li>
-    </ul>
-    <p>Developed as a hands-on embedded systems project to explore hardware integration, real-time control loops, and system modularity using Arduino and C++.</p>
-    <p><strong>Technologies:</strong> C++, Arduino Uno, PlatformIO, MPU6050, HC-SR04, MFRC522, DHT11, LCD1602, IR Receiver (AX-1838HS), L298N Motor Driver, LEDs, Buzzer</p>
-</div>`
+  <h4>From Gyroscope-Controlled Arduino Car to Smart Vehicle Integration</h4>
+  <p>This two-part project progression highlights my growth in embedded systems and real-time control, from a gesture-driven RC car in my first year to a fully integrated smart car test-bed in junior year.</p>
+
+  <h5> Freshman Year</h5>
+  <ul>
+    <li>Created a gyroscope-controlled glove that interprets hand gestures to steer, accelerate, or stop an RC vehicle</li>
+    <li>Functional prototype where forward tilt accelerates, backward tilt stops, and lateral tilt turns the car</li>
+    <li>Designed a 3D-printed RC car with servo steering and Arduino control logic</li>
+    <li>Used accelerometer data to execute real-time motion commands with measured ~0.2s response time</li>
+  </ul>
+
+  <h5>🚗 Electric Vehicle Test-Bed – Junior Year</h5>
+  <ul>
+    <li>Built a microcontroller-based EV prototype with real-time collision avoidance, remote control and adaptive speed control using ultrasonic sensor and PWM-based motor logic</li>
+    <li>Developed a MATLAB GUI dashboard displaying live sensor data (distance, temperature, motor speed)</li>
+    <li>Integrated RFID authentication, IR remote input, and warning systems based on threshold triggers</li>
+    <li>Streamed real-time sensor data from Arduino to MATLAB over serial to enable live dashboard visualization and analysis</li>
+  </ul>
+
+  <p><strong>Technologies:</strong> Arduino, C++, Accelerometer, Ultrasonic Sensor, IR Remote, RFID, MATLAB GUI, SolidWorks (3D Printing)</p>
+</div>
+
 
     ];
 
