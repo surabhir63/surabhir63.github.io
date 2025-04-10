@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <h4>From Gyroscope-Controlled Arduino Car to Smart Vehicle Integration</h4>
   <p>This two-part project progression highlights my growth in embedded systems and real-time control, from a gesture-driven RC car in my first year to a fully integrated smart car test-bed in junior year.</p>
 
-  <h5> Freshman Year</h5>
+  <h5> Freshman Design </h5>
   <ul>
     <li>Created a gyroscope-controlled glove that interprets hand gestures to steer, accelerate, or stop an RC vehicle</li>
     <li>Functional prototype where forward tilt accelerates, backward tilt stops, and lateral tilt turns the car</li>
@@ -105,15 +105,15 @@ document.addEventListener('DOMContentLoaded', function() {
     <li>Used accelerometer data to execute real-time motion commands with measured ~0.2s response time</li>
   </ul>
 
-  <h5>🚗 Electric Vehicle Test-Bed – Junior Year</h5>
+  <h5> Junior Year - Continuation </h5>
   <ul>
     <li>Built a microcontroller-based EV prototype with real-time collision avoidance, remote control and adaptive speed control using ultrasonic sensor and PWM-based motor logic</li>
     <li>Developed a MATLAB GUI dashboard displaying live sensor data (distance, temperature, motor speed)</li>
     <li>Integrated RFID authentication, IR remote input, and warning systems based on threshold triggers</li>
-    <li>Streamed real-time sensor data from Arduino to MATLAB over serial to enable live dashboard visualization and analysis</li>
+    <li>Streamed real-time sensor data from Arduino to MATLAB via serial communication to enable live dashboard visualization and analysis</li>
   </ul>
 
-  <p><strong>Technologies:</strong> Arduino, C++, Accelerometer, Ultrasonic Sensor, IR Remote, RFID, MATLAB GUI, SolidWorks (3D Printing)</p>
+  <p><strong>Technologies:</strong> Arduino-microcontroller, C++, Accelerometer, Ultrasonic Sensor, IR Remote, RFID authentication, MATLAB GUI, PlatformIO </p>
 </div>
 
 
