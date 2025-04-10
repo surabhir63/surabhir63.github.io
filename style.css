@@ -362,12 +362,22 @@ nav a:hover::after {
     gap: 0.5rem;
 }
 
-.skill-group p {
-    font-size: 0.95rem;
+.skill-group ul {
+    padding-left: 1.2rem;
+    margin: 0;
+    list-style-type: disc;
+}
+
+.skill-group li {
+    font-size: 1rem;
     line-height: 1.6;
     color: var(--text);
     font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 0.4rem;
 }
+
+
+
 
 /* Projects Section */
 .projects-grid {
