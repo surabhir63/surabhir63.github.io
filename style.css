@@ -558,7 +558,7 @@ nav a:hover::after {
 .btn {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
     background-color: var(--sage);
     color: var(--white);
     padding: 0.8rem 2rem;
@@ -579,10 +579,15 @@ nav a:hover::after {
 }
 
 @media (max-width: 768px) {
-    .btn {
-        padding: 0.6rem 1.4rem;
-        font-size: 0.95rem;
-    }
+  .hero-buttons {
+    flex-direction: column; /* stack vertically */
+    align-items: center;    /* center the buttons */
+  }
+
+  .hero-buttons .btn {
+    width: 80%;            /* optional: make buttons uniform width */
+    text-align: center;
+  }
 }
 
 /* Footer */
