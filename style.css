@@ -45,9 +45,9 @@ body {
         background-image: url('images/floral-bg-vertical.png');
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: scroll; /* ✅ Changed from fixed to scroll */
-        background-color: rgba(245, 245, 240, 0.85); /* ✅ More visible */
-        background-blend-mode: normal; /* ✅ Reset from overlay */
+        background-attachment: fixed; /* Changed from fixed to scroll */
+        background-color: rgba(245, 245, 240, 0.80); /*  More visible */
+        background-blend-mode: normal; /*  Reset from overlay */
     }
 }
 
