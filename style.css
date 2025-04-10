@@ -125,22 +125,28 @@ nav a:hover::after {
     }
 
     nav {
-    flex-direction: column;
-    gap: 0.5rem;
-    padding: 0.5rem 0;
+    flex-direction: wrap;
+    justify-content: center;
+    padding: 0.5rem 5%;
   }
 
     nav ul {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 0.6rem;
     background: none;
     position: static;
     transform: none;
-    text-align: center;
+    height: auto;
   }
-    nav a {
-    font-size: 0.9rem;
-    padding: 0.2rem 0;
+    nav li {
+    margin-bottom: 0; /* reset mobile spacing */
+  }
+
+  nav a {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.5rem;
     font-weight: 500;
     color: var(--sage-dark);
   }
