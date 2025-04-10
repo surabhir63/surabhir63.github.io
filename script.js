@@ -101,13 +101,3 @@ const fileName = 'RIS Poster.pdf';
 const safeUrl = 'pdf/' + encodeURIComponent(fileName); // becomes "pdf/RIS%20Poster.pdf"
 
 
-document.addEventListener('DOMContentLoaded', () => {
-  const mobileMenu = document.getElementById('mobile-menu');
-  const navLinks = document.querySelector('nav ul');
-
-  mobileMenu.addEventListener('click', () => {
-    navLinks.classList.toggle('showing');
-  });
-});
-
-
