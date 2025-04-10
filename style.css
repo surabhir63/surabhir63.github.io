@@ -592,7 +592,7 @@ nav a:hover::after {
   .hero-buttons {
     flex-direction: column; /* stack vertically */
     align-items: center;    /* center the buttons */
-    gap: 1rem; 
+    gap: 1.4rem; 
   }
 
   .hero-buttons .btn {
