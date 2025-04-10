@@ -664,6 +664,9 @@ footer {
     position: relative;
     transform: translateY(20px);
     transition: transform 0.3s ease;
+
+    max-height: 90vh;
+    overflow-y: auto;
 }
 
 .modal-overlay.active .modal {
@@ -697,6 +700,20 @@ footer {
     line-height: 1.8;
     color: var(--text);
     font-size: 1.1rem;
+
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .modal {
+    padding: 2rem 1.2rem;
+    max-height: 85vh;
+  }
+
+  .modal-content {
+    max-height: 60vh;
+  }
 }
 
 /* Read More Button */
