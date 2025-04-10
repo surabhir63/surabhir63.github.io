@@ -600,12 +600,13 @@ nav a:hover::after {
     display: flex;
     flex-direction: column; /* stack vertically */
     align-items: center;    /* center the buttons */
-    gap: 1.4rem; 
+    gap: 1.2rem; 
   }
 
   .hero-buttons .btn {
-    width: 80%;            /* optional: make buttons uniform width */
+    width: 90%;            /* optional: make buttons uniform width */
     text-align: center;
+    white-space: nowrap;
   }
 }
 
