@@ -52,12 +52,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Project descriptions data (match with your project order)
     const projectDescriptions = [
-        // Project 1
-        `<div class="pdf-container">
-        <iframe src="images/RIS%20Poster.pdf" width="100%" height="600px" style="border:none;"></iframe>
-    </div>`,
         
-        // Project 2 (HackZurich) - keep description
+  // Project 2 (HackZurich) - keep description
     `<div class="project-details">
         <h4>Office Playground Project</h4>
         <p>Created an immersive office wellness experience for HackZurich 2022 that:</p>
@@ -103,3 +99,12 @@ const posterUrl = 'pdf/RIS%20Poster.pdf'; // URL-encoded space
 // Or using encodeURIComponent()
 const fileName = 'RIS Poster.pdf';
 const safeUrl = 'pdf/' + encodeURIComponent(fileName); // becomes "pdf/RIS%20Poster.pdf"
+
+
+const mobileMenu = document.getElementById('mobile-menu');
+const navLinks = document.querySelector('nav ul');
+
+mobileMenu.addEventListener('click', () => {
+    navLinks.classList.toggle('showing');
+});
+
