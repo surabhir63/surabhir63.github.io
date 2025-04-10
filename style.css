@@ -345,6 +345,13 @@ nav a:hover::after {
     margin-top: 1rem;
 }
 
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr); /* Show 2 per row */
+    gap: 1rem; /* Optional: smaller spacing on mobile */
+  }
+}
+
 .skill-group {
     background-color: var(--white);
     padding: 1.5rem;
