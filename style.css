@@ -340,7 +340,7 @@ nav a:hover::after {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
     margin-top: 1rem;
 }
@@ -592,6 +592,7 @@ nav a:hover::after {
   .hero-buttons {
     flex-direction: column; /* stack vertically */
     align-items: center;    /* center the buttons */
+    gap: 1rem; 
   }
 
   .hero-buttons .btn {
