@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
   </ul>
 
   <p><strong>Technologies:</strong> Arduino-microcontroller, C++, Accelerometer, Ultrasonic Sensor, IR Remote, RFID authentication, MATLAB GUI, PlatformIO </p>
-</div>
+</div>`
 
 
     ];
