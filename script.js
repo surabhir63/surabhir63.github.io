@@ -52,6 +52,25 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Project descriptions data (match with your project order)
     const projectDescriptions = [
+
+
+  // Project 1 (senior design)
+        `<div class="project-details">
+    <h4>AI-Based 6G Reconfigurable Intelligent Surfaces – Senior Design</h4>
+    <p>This senior design project focuses on using AI to dynamically control Reconfigurable Intelligent Surfaces (RIS) for next-generation wireless communication. RIS are smart surfaces made of tiny antennas that can be adjusted to reflect wireless signals in useful directions to improve coverage. Our work was primarily simulation-based, using ray-tracing and AI to test how RIS can reduce dead zones and boost signal strength. As the Machine Learning Engineer on the team, I led the development of a reinforcement learning system that optimizes RIS configuration to enhance signal power and mitigate wireless dead zones in complex indoor environments.</p>
+    <ul>
+    <li>Generated simulation data and automated experiments using Python scripts in Wireless InSite across a range of RIS angles (−170° to 170°) and receiver coordinates</li>
+    <li>Built and trained a Deep Q-Network (DQN) reinforcement learning model to predict the optimal reflection angle based on receiver location and signal feedback</li>
+    <li>Designed a custom reward function and implemented state encoding and policy exploration strategies. The agent receives rewards or penalties based on how well the chosen angle improves received signal power; the reward function is directly based on power levels</li>
+    <li>Achieved strong model performance (MAE: 5.3°, R²: 0.979), outperforming baseline models such as Random Forest and K-Nearest Neighbors</li>
+    <li>Deployed the model on a Google Coral Edge TPU for efficient, real-time inference in a low-power edge environment</li>
+    <li>Currently working on deploying the trained model into the DragonRadio SDR setup to evaluate real-time RIS configuration impact on channel quality and signal performance</li>
+</ul>
+
+    <p>This project was supported by the National Science Foundation and conducted in partnership with Drexel Wireless Systems Laboratory (DWSL). It combines AI, embedded systems, and radio-frequency engineering into a scalable prototype for smart indoor connectivity in 6G networks.</p>
+<p><strong>Technologies:</strong> Python; Data Processing & Analysis (NumPy, Pandas, Matplotlib, Seaborn, Shutil); Machine Learning (PyTorch, Stable-Baselines3, Scikit-learn, KNN); Reinforcement Learning (Deep Q-Network); Wireless InSite; Google Coral TPU; DragonRadio SDR.</p>
+</div>`,
+
         
   // Project 2 (HackZurich) - keep description
     `<div class="project-details">
