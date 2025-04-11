@@ -706,6 +706,17 @@ footer {
     overflow-y: auto;
 }
 
+.modal-content ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+.modal-content li {
+    margin-bottom: 0.5rem;
+}
+
+
 @media (max-width: 768px) {
   .modal {
     padding: 2rem 1.2rem;
