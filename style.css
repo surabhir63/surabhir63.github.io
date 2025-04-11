@@ -174,7 +174,7 @@ nav a:hover::after {
     object-fit: cover;
     border: 8px solid var(--white);
     box-shadow: 0 5px 15px rgba(122, 117, 99, 0.2);
-    outline: 2px solid var(--sage-light);
+    outline: none;
     margin: 20px auto 2rem;
 }
 
