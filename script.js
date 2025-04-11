@@ -150,6 +150,9 @@ document.addEventListener('DOMContentLoaded', function() {
             
             modalTitle.textContent = title;
             modalContent.innerHTML = projectDescriptions[index];
+
+            modalContent.scrollTop = 0;
+            
             modal.classList.add('active');
             document.body.style.overflow = 'hidden'; // Prevent background scroll
         });
