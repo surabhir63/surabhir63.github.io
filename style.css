@@ -42,23 +42,21 @@ body {
 }
 
 /* Mobile-specific adjustment */
-@media (max-width: 768px) {
-    body {
+
         @media (max-width: 768px) {
     body {
         background-image: 
             url('images/floral-bg-vertical.png'),
             url('images/floral-bg-vertical.png');
-        background-repeat: no-repeat, no-repeat;
+        background-repeat: no-repeat;
         background-position: top center, bottom center;
-        background-size: 100% auto, 100% auto; /* Full width, maintain aspect ratio */
+        background-size: 100% 50%; /* Each image takes exactly half the height */
         background-attachment: scroll;
         background-color: rgba(245, 245, 240, 0.60);
         background-blend-mode: overlay;
     }
 }
-    }
-}
+  
 
 h1, h2, h3 {
     font-weight: 700;
