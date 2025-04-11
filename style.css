@@ -31,14 +31,15 @@ body {
     font-family: 'Cormorant Garamond', serif;
     color: var(--text);
     line-height: 1.6;
-    background-image: url('images/floral-bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: rgba(245, 245, 240, 0.45); /* Increased from 0.85 */
+    background-image: 
+        url('images/floral-bg-vertical.png'),
+        url('images/floral-bg-vertical.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top center, bottom center;
+    background-size: 100% auto, 100% auto; /* Full width, maintain aspect ratio */
+    background-attachment: scroll;
+    background-color: rgba(245, 245, 240, 0.50);
     background-blend-mode: overlay;
-    /* Removed opacity: 0.12 (it was making ALL content transparent!) */
 }
 
 /* Mobile-specific adjustment */
