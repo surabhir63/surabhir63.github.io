@@ -202,7 +202,10 @@ nav a:hover::after {
 .floral-icon {
     width: 80px;
     margin: 1.5rem auto; /* Top/bottom margin + auto horizontal centers it */
-    display: block; /* Critical for centering */
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;    display: block; /* Critical for centering */
     opacity: 0.8;
     position: relative; /* Ensures no parent overflow issues */
     left: 0; /* Resets any accidental positioning */
