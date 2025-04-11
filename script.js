@@ -66,7 +66,8 @@ document.addEventListener('DOMContentLoaded', function() {
     <li>Deployed the model on a Google Coral Edge TPU for efficient, real-time inference in a low-power edge environment</li>
     <li>Currently working on deploying the trained model into the DragonRadio SDR setup to evaluate real-time RIS configuration impact on channel quality and signal performance</li>
 </ul>
-    <p>This project was supported by the National Science Foundation and conducted in partnership with Drexel Wireless Systems Laboratory (DWSL). It combines AI, embedded systems, and radio-frequency engineering into a scalable prototype for smart indoor connectivity in 6G networks.</p>
+<p>This project was supported by the National Science Foundation and conducted in partnership with Drexel Wireless Systems Laboratory (DWSL). It combines AI, embedded systems, and radio-frequency engineering into a scalable prototype for smart indoor connectivity in 6G networks.</p>
+<br>
 <p><strong>Technologies:</strong> Python; Data Processing & Analysis (NumPy, Pandas, Matplotlib, Seaborn, Shutil); Machine Learning (PyTorch, Stable-Baselines3, Scikit-learn, KNN); Reinforcement Learning (Deep Q-Network); Wireless InSite; Google Coral TPU; DragonRadio SDR.</p>
 </div>`,
 
@@ -84,6 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <li>Co-op mini games like tic-tac-toe to promote collaboration and friendly competition</li>
     </ul>
     <p>Selected as second place in the Workplace Innovation category for Merkle </strong> and Top 15 overall at HackZurich 2022.</p>
+    <br>
     <p><strong>Technologies:</strong> Unity, C#, ShaderLab, HLSL, Git, Visual Studio</p>
 </div>`
 ,
@@ -106,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
     `<div class="project-details">
   <h4>From Gyroscope-Controlled Arduino Car to Smart Vehicle Integration</h4>
   <p>This two-part project progression highlights my growth in embedded systems and real-time control, from a gesture-driven RC car in my first year to a fully integrated smart car test-bed in junior year.</p>
-
+  <br>
   <h4> Freshman Design </h4>
   <ul>
     <li>Created a gyroscope-controlled glove that interprets hand gestures to steer, accelerate, or stop an RC vehicle</li>
