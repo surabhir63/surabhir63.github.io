@@ -5,7 +5,7 @@
     --sage-light: #D8D3B6;
     --sage-dark: #7A7563;
     --cream: #F5F5F0;
-    --text: #3A3A3A;
+    --text: #2E2E2E;
     --accent: #8A9B6E;
     --white: #FFFFFF;
 }
@@ -36,7 +36,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-color: rgba(245, 245, 240, 0.50); /* Increased from 0.85 */
+    background-color: rgba(245, 245, 240, 0.45); /* Increased from 0.85 */
     background-blend-mode: overlay;
     /* Removed opacity: 0.12 (it was making ALL content transparent!) */
 }
@@ -276,7 +276,7 @@ nav a:hover::after {
 }
 
 .about-text p {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     line-height: 1.8;
     margin-bottom: 1.5rem;
 }
@@ -363,7 +363,7 @@ nav a:hover::after {
 
 .skill-group h4 {
     margin-bottom: 0.8rem;
-    color: var(--sage);
+    color: var(--sage-dark);
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
     display: flex;
@@ -384,14 +384,12 @@ nav a:hover::after {
 }
 
 .skill-group li {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.6;
     color: var(--text);
     font-family: 'Cormorant Garamond', serif;
     margin-bottom: 0.4rem;
 }
-
-
 
 
 /* Projects Section */
@@ -869,14 +867,14 @@ footer {
 
 .experience-details h4 {
     margin: 0 0 10px 0;
-    color: #7f8c8d;
+    color: var(--sage);
     font-weight: 500;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .experience-details .date {
-    color: #95a5a6;
-    font-size: 0.9em;
+    color: var(--sage);
+    font-size: 1.0em;
     margin-bottom: 15px;
     display: block;
 }
@@ -888,8 +886,8 @@ footer {
 
 .experience-details .responsibilities li {
     margin-bottom: 8px;
-    color: #34495e;
-    font-size: 0.95em;
+    color: var(--text);
+    font-size: 1.0em;
     line-height: 1.5;
 }
 
