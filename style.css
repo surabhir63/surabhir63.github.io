@@ -785,8 +785,30 @@ footer {
 }
 
 .Download-Poster-btn i {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
 }
+
+
+.icon-only-btn {
+    background: none;
+    color: var(--accent);
+    font-size: 1.2rem;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.icon-only-btn:hover {
+    color: var(--sage-dark);
+    transform: scale(1.1);
+}
+
+
+
 /* Experience Section */
 /* Experience Section - 2x2 Grid */
 .experience-container {
