@@ -870,13 +870,13 @@ footer {
 
 .experience-details h4 {
     margin: 0 0 10px 0;
-    color: var(--sage);
+    color: var(--sage-dark);
     font-weight: 500;
     font-size: 1.2em;
 }
 
 .experience-details .date {
-    color: var(--sage);
+    color: var(--sage-dark);
     font-size: 1.0em;
     margin-bottom: 15px;
     display: block;
