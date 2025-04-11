@@ -488,6 +488,7 @@ nav a:hover::after {
     align-items: center;
     gap: 0.5rem;
     transition: color 0.3s;
+    white-space: nowrap;
 }
 
 .project-links a:hover {
