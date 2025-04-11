@@ -44,12 +44,15 @@ body {
 /* Mobile-specific adjustment */
 @media (max-width: 768px) {
     body {
-        background-image: url('images/floral-bg-vertical.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: scroll; /* Changed from fixed to scroll */
-        background-color: rgba(245, 245, 240, 0.60); /*  More visible */
-        background-blend-mode: overlay; /*  Reset from overlay */
+        background-image: 
+            url('images/floral-bg-vertical.png'),
+            url('images/floral-bg-vertical.png');
+        background-repeat: no-repeat, no-repeat;
+        background-position: top center, bottom center;
+        background-size: contain, contain;
+        background-attachment: scroll;
+        background-color: rgba(245, 245, 240, 0.60);
+        background-blend-mode: overlay;
     }
 }
 
