@@ -66,7 +66,6 @@ document.addEventListener('DOMContentLoaded', function() {
     <li>Deployed the model on a Google Coral Edge TPU for efficient, real-time inference in a low-power edge environment</li>
     <li>Currently working on deploying the trained model into the DragonRadio SDR setup to evaluate real-time RIS configuration impact on channel quality and signal performance</li>
 </ul>
-
     <p>This project was supported by the National Science Foundation and conducted in partnership with Drexel Wireless Systems Laboratory (DWSL). It combines AI, embedded systems, and radio-frequency engineering into a scalable prototype for smart indoor connectivity in 6G networks.</p>
 <p><strong>Technologies:</strong> Python; Data Processing & Analysis (NumPy, Pandas, Matplotlib, Seaborn, Shutil); Machine Learning (PyTorch, Stable-Baselines3, Scikit-learn, KNN); Reinforcement Learning (Deep Q-Network); Wireless InSite; Google Coral TPU; DragonRadio SDR.</p>
 </div>`,
@@ -76,6 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
     `<div class="project-details">
     <h4>Office Playground – HackZurich 2022</h4>
     <p>Developed an interactive Unity game that transforms the office into a collaborative, safety-focused digital playground. Built during HackZurich 2022, the project aimed to promote workplace safety through immersive gameplay. The system features:</p>
+    <p></p>
     <ul>
         <li>Character navigation and movement through a 2D office environment</li>
         <li>Proximity-based task activation and real-time hazard detection</li>
