@@ -920,5 +920,16 @@ footer {
     }
 }
 
+.orchid-divider {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.orchid-divider img {
+    height: 70px;
+    opacity: 0.9;
+    max-width: 100%;
+    display: inline-block;
+}
 
 
