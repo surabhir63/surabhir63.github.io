@@ -101,16 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <p><strong>Technologies:</strong> MATLAB, Statistical Analysis: ROC Analysis, Bootstrapping, Hypothesis Testing, Probability Density Functions(Nakagami, Rician, Gamma, Lognormal, Weibull), Bayes Rule, Signal Processing</p>
 </div>`,
 
-                         ` <div class="project-details">
-    <h4>Computer Vision Target Detection</h4>
-    <p>Designed a statistical analysis framework to evaluate and enhance a machine vision system’s ability to detect targets in noisy environments. The project focused on improving binary classification of "target present" vs. "target absent" data using signal modeling and performance analysis techniques. Key contributions include:</p>
-    <ul>
-        
-        <li>Achieved performance improvement from baseline AUC of 0.906 to 0.985, with error rate reduced from 21/130 to 7/130 and PPV increased to 0.934</li>
-    </ul>
-    <p><strong>Technologies:</strong> MATLAB, Python (NumPy, SciPy, Matplotlib), ROC Analysis, Bootstrapping, Hypothesis Testing, Signal Processing</p>
-</div>`,
-
+                        
         
     `<div class="project-details">
   <h4>From Gyroscope-Controlled Arduino Car to Smart Vehicle Integration</h4>
