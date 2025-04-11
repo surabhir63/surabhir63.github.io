@@ -926,9 +926,9 @@ footer {
 }
 
 .orchid-divider img {
-    height: 70px;
+    height: 40px; /* smaller than before */
+    max-width: 100px; /* keeps it from stretching too wide */
     opacity: 0.9;
-    max-width: 100%;
     display: inline-block;
 }
 
