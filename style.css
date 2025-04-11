@@ -1,4 +1,5 @@
 
+
 :root {
     --sage: #B2AC88;
     --sage-light: #D8D3B6;
@@ -174,7 +175,7 @@ nav a:hover::after {
     object-fit: cover;
     border: 8px solid var(--white);
     box-shadow: 0 5px 15px rgba(122, 117, 99, 0.2);
-    outline: none;
+    outline: 2px solid var(--sage-light);
     margin: 20px auto 2rem;
 }
 
