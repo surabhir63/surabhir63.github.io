@@ -175,7 +175,7 @@ nav a:hover::after {
     object-fit: cover;
     border: 8px solid var(--white);
     box-shadow: 0 5px 15px rgba(122, 117, 99, 0.2);
-    outline: 2px solid var(--sage-light);
+    outline: none;
     margin: 20px auto 2rem;
 }
 
@@ -285,8 +285,8 @@ nav a:hover::after {
 .quote-container {
     display: flex;
     align-items: center;
-    margin: 1.5rem 0;
-    padding: 1.2rem;
+    margin: 1.0rem 0;
+    padding: 1rem;
     background: rgba(255,255,255,0.03);
     border-radius: 12px;
     border-left: 3px solid var(--accent);
