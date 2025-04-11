@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <li>Task list tracking and progress feedback for user engagement</li>
         <li>Co-op mini games like tic-tac-toe to promote collaboration and friendly competition</li>
     </ul>
-    <p>Selected as Top:15 place in the Workplace Innovation category for Merkle </strong> at HackZurich 2022 for creatively reimagining the modern office environment through gamification and real-time interaction.</p>
+    <p>Selected as second place in the Workplace Innovation category for Merkle </strong> and Top 15 overall at HackZurich 2022.</p>
     <p><strong>Technologies:</strong> Unity, C#, ShaderLab, HLSL, Git, Visual Studio</p>
 </div>`
 ,
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <h4>From Gyroscope-Controlled Arduino Car to Smart Vehicle Integration</h4>
   <p>This two-part project progression highlights my growth in embedded systems and real-time control, from a gesture-driven RC car in my first year to a fully integrated smart car test-bed in junior year.</p>
 
-  <h5> Freshman Design </h5>
+  <h4> Freshman Design </h4>
   <ul>
     <li>Created a gyroscope-controlled glove that interprets hand gestures to steer, accelerate, or stop an RC vehicle</li>
     <li>Functional prototype where forward tilt accelerates, backward tilt stops, and lateral tilt turns the car</li>
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <li>Used accelerometer data to execute real-time motion commands with measured ~0.2s response time</li>
   </ul>
 
-  <h5> Junior Year - Continuation </h5>
+  <h4> Junior Year - Continuation </h4>
   <ul>
     <li>Built a microcontroller-based EV prototype with real-time collision avoidance, remote control and adaptive speed control using ultrasonic sensor and PWM-based motor logic</li>
     <li>Developed a MATLAB GUI dashboard displaying live sensor data (distance, temperature, motor speed)</li>
@@ -114,6 +114,17 @@ document.addEventListener('DOMContentLoaded', function() {
   </ul>
 
   <p><strong>Technologies:</strong> Arduino-microcontroller, C++, Accelerometer, Ultrasonic Sensor, IR Remote, RFID authentication, MATLAB GUI, PlatformIO </p>
+</div>`,
+
+        `<div class="project-details">
+    <h4>Lights Out!</h4>
+    <p>Puzzle game inspired by the classic “Lights Out” logic game using C. The game challenges users to turn off all the lights on a grid, where toggling one light also toggles its adjacent lights. Key features and contributions include:</p>
+    <ul>
+        <li>Simulated a 2D grid using a 1D array and arithmetic indexing to track window states and toggle adjacent lights</li>
+        <li>Validated player input and updated an ASCII-rendered game board on the terminal in real time</li>
+        <li>Used modular programming and pointer arithmetic for efficient state management and debugging</li>
+    </ul>
+    <p><strong>Technologies:</strong> C, Game Logic</p>
 </div>`
 
 
