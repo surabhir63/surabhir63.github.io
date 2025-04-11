@@ -265,8 +265,8 @@ nav a:hover::after {
 .about-container {
     display: flex;
     align-items: center;
-    gap: 4rem;
-    margin-top: 2rem;
+    gap: 2rem;
+    margin-top: 1rem;
 }
 
 @media (max-width: 992px) {
