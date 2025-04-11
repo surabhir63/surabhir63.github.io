@@ -87,11 +87,11 @@ document.addEventListener('DOMContentLoaded', function() {
     <p>Selected as second place in the Workplace Innovation category for Merkle </strong> and Top 15 overall at HackZurich 2022.</p>
     <br>
     <p><strong>Technologies:</strong> Unity, C#, ShaderLab, HLSL, Git, Visual Studio</p>
-</div>`
-,
+</div>`,
 
-    `<div class="project-details">
-    <h4>Computer Vision Target Detection</h4>
+        
+`<div class="project-details">
+  <h4>Computer Vision Target Detection</h4>
     <p>Designed a statistical analysis framework to evaluate and enhance a machine vision system’s ability to detect targets in noisy environments. The project focused on improving classification of "target present" vs. "target absent" data using signal modeling and performance analysis techniques. Key contributions include:</p>
     <ul>
         <li>Conducted ROC analysis to find the optimal detection threshold and quantify system performance using AUC</li>
@@ -100,47 +100,53 @@ document.addEventListener('DOMContentLoaded', function() {
         <li>Enhanced system accuracy using signal processing techniques such as arithmetic mean, geometric mean, and max-value filtering</li>
         <li>Achieved performance improvement from baseline AUC of 0.906 to 0.985, with error rate reduced from 21/130 to 7/130 and PPV increased to 0.934</li>
     </ul>
-    <p><strong>Technologies:</strong> MATLAB, Statistical Analysis: ROC Analysis, Bootstrapping, Hypothesis Testing, Probability Density Functions(Nakagami, Rician, Gamma, Lognormal, Weibull), Bayes Rule, Signal Processing</p>
+  <p><strong>Technologies:</strong> MATLAB, Statistical Analysis: ROC Analysis, Bootstrapping, Hypothesis Testing, Probability Density Functions(Nakagami, Rician, Gamma, Lognormal, Weibull), Bayes Rule, Signal Processing</p>
 </div>`,
-
-                        
+                       
         
-    `<div class="project-details">
+`<div class="project-details">
   <h4>From Gyroscope-Controlled Arduino Car to Smart Vehicle Integration</h4>
-  <p>This two-part project progression highlights my growth in embedded systems and real-time control, from a gesture-driven RC car in my first year to a fully integrated smart car test-bed in junior year.</p>
-  <br>
-  <h4> Freshman Design </h4>
-  <ul>
+   <p>This two-part project progression highlights my growth in embedded systems and real-time control, from a gesture-driven RC car in my first year to a fully integrated smart car test-bed in junior year.</p>
+   
+   <br>
+   
+    <h4> Freshman Design </h4>
+    
+   <ul>
     <li>Created a gyroscope-controlled glove that interprets hand gestures to steer, accelerate, or stop an RC vehicle</li>
     <li>Functional prototype where forward tilt accelerates, backward tilt stops, and lateral tilt turns the car</li>
     <li>Designed a 3D-printed RC car with servo steering and Arduino control logic</li>
     <li>Used accelerometer data to execute real-time motion commands with measured ~0.2s response time</li>
-  </ul>
+    <li>Tested and calibrated sensor input through live serial monitoring for accurate angle interpretation</li>
+   </ul>
 
   <h4> Junior Year - Continuation </h4>
+  
   <ul>
-    <li>Built a microcontroller-based EV prototype with real-time collision avoidance, remote control and adaptive speed control using ultrasonic sensor and PWM-based motor logic</li>
-    <li>Developed a MATLAB GUI dashboard displaying live sensor data (distance, temperature, motor speed)</li>
-    <li>Integrated RFID authentication, IR remote input, and warning systems based on threshold triggers</li>
-    <li>Streamed real-time sensor data from Arduino to MATLAB via serial communication to enable live dashboard visualization and analysis</li>
+    <li> Built a full-stack Arduino-based vehicle system in C++, leveraging PlatformIO and Arduino libraries.</li>
+    <li> Measured obstacle distance using an HC-SR04 ultrasonic sensor and dynamically controlled motor speed through PWM-based adjustments </li>
+    <li> Developed a Built a microcontroller-based EV prototype with real-time collision avoidance, remote control and adaptive speed control using ultrasonic sensor and PWM-based motor logic</li>
+    <li>Designed a tiered collision avoidance system that dynamically adjusted motor behavior: maintained full speed at distances >50 cm, reduced speed below 35 cm, and triggered a complete stop under 15 cm</li>
+    <li>Programmed real-time alert system with buzzer and LEDs that activate based on obstacle proximity thresholds</li>
+    <li>Implemented RFID authentication using the MFRC522 module; only authorized cards could start the system</li>
+    <li>Streamed real-time sensor data from Arduino to MATLAB via serial communication to enable live dashboard visualization and analysis of sensor data (distance, temperature, motor speed)</li>
   </ul>
 
   <p><strong>Technologies:</strong> Arduino-microcontroller, C++, Accelerometer, Ultrasonic Sensor, IR Remote, RFID authentication, MATLAB GUI, PlatformIO </p>
 </div>`,
+        
 
-        `<div class="project-details">
-    <h4>Lights Out!</h4>
+`<div class="project-details">
+   <h4>Lights Out!</h4>
     <p>Puzzle game inspired by the classic “Lights Out” logic game using C. The game challenges users to turn off all the lights on a grid, where toggling one light also toggles its adjacent lights. Key features and contributions include:</p>
-    <ul>
+      <ul>
         <li>Simulated a 2D grid using a 1D array and arithmetic indexing to track window states and toggle adjacent lights</li>
         <li>Validated player input and updated an ASCII-rendered game board on the terminal in real time</li>
         <li>Used modular programming and pointer arithmetic for efficient state management and debugging</li>
-    </ul>
+     </ul>
     <p><strong>Technologies:</strong> C, Game Logic</p>
 </div>`
-
-
-    ];
+];
 
     // Add click handlers to all Read More buttons
     document.querySelectorAll('.read-more-btn').forEach((btn, index) => {
