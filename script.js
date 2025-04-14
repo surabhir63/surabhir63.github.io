@@ -108,9 +108,6 @@ document.addEventListener('DOMContentLoaded', function() {
   <h4>From Gyroscope-Controlled Arduino Car to Smart Vehicle Integration</h4>
    <p>This two-part project progression highlights my growth in embedded systems and real-time control, from a gesture-driven RC car in my first year to a fully integrated smart car test-bed in junior year.</p>
    
-   <br>
-   
-    <h4> Freshman Design </h4>
     
    <ul>
     <li>Created a gyroscope-controlled glove that interprets hand gestures to steer, accelerate, or stop an RC vehicle</li>
@@ -120,7 +117,6 @@ document.addEventListener('DOMContentLoaded', function() {
     <li>Tested and calibrated sensor input through live serial monitoring for accurate angle interpretation</li>
    </ul>
 
-  <h4> Junior Year - Continuation </h4>
   
   <ul>
     <li> Built a full-stack Arduino-based vehicle system in C++, leveraging PlatformIO and Arduino libraries.</li>
