@@ -221,7 +221,7 @@ nav a:hover::after {
 }
 
 .subtitle {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     margin-bottom: 2rem;
     color: var(--sage-dark);
     font-family: 'Montserrat', sans-serif;
