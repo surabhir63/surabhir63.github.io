@@ -89,19 +89,24 @@ document.addEventListener('DOMContentLoaded', function() {
     <p><strong>Technologies:</strong> Unity, C#, ShaderLab, HLSL, Git, Visual Studio</p>
 </div>`,
 
-        
-`<div class="project-details">
-  <h4>Computer Vision Target Detection</h4>
-    <p>Designed a statistical analysis framework to evaluate and enhance a machine vision system’s ability to detect targets in noisy environments. The project focused on improving classification of "target present" vs. "target absent" data using signal modeling and performance analysis techniques. Key contributions include:</p>
+
+         // Project 3
+` <div class="project-details">
+    <h4>Computer Systems & Architecture</h4>
+    <p>As part of Drexel University's Computer Organization course, I completed a series of hands-on projects exploring the inner workings of modern computer systems. These projects covered key topics including:</p>
     <ul>
-        <li>Conducted ROC analysis to find the optimal detection threshold and quantify system performance using AUC</li>
-        <li>Modeled data distributions using hypothesis testing and identified Gamma (target absent) and Rician (target present) as best fits via χ² tests</li>
-        <li>Applied both parametric and non-parametric bootstrapping to validate statistical robustness and estimate confidence intervals</li>
-        <li>Enhanced system accuracy using signal processing techniques such as arithmetic mean, geometric mean, and max-value filtering</li>
-        <li>Achieved performance improvement from baseline AUC of 0.906 to 0.985, with error rate reduced from 21/130 to 7/130 and PPV increased to 0.934</li>
+        <li><strong>Digital Logic Design:</strong> Created and simulated adder circuits and counters to understand the foundations of digital electronics.</li>
+        <li><strong>Arithmetic Logic Unit (ALU):</strong> Designed an ALU to perform arithmetic and logical operations, reinforcing core processor functionality.</li>
+        <li><strong>Memory Systems:</strong> Designed and simulated RAM modules with dynamic read/write logic and address decoding.</li>
+        <li><strong>Hack Computer Architecture:</strong> Simulated the Hack computer (a minimalist hardware model) to explore how CPUs, memory, and control logic interact to execute machine-level instructions.</li>
+        <li><strong>Assembler Implementation:</strong> Built an assembler that translates Hack assembly instructions into binary machine code.</li>
+        <li><strong>Virtual Machine Translator:</strong> Developed a two-part VM translator to convert high-level stack-based commands into Hack assembly, including support for memory segments, arithmetic, branching, and function calls.</li>
     </ul>
-  <p><strong>Technologies:</strong> MATLAB, Statistical Analysis: ROC Analysis, Bootstrapping, Hypothesis Testing, Probability Density Functions(Nakagami, Rician, Gamma, Lognormal, Weibull), Bayes Rule, Signal Processing</p>
+    <p>Through these projects, I gained a deep understanding of how computers operate at the hardware level. I built skills in low-level programming (assembly language), digital logic simulation, virtual machine architecture, memory management, and compiler/interpreter design using Python.</p>
+    <br>
+    <p><strong>Technologies:</strong> Python</p>
 </div>`,
+
                        
         
 `<div class="project-details">
@@ -141,7 +146,21 @@ document.addEventListener('DOMContentLoaded', function() {
         <li>Used modular programming and pointer arithmetic for efficient state management and debugging</li>
      </ul>
     <p><strong>Technologies:</strong> C, Game Logic</p>
+</div>`,
+
+        `<div class="project-details">
+  <h4>Computer Vision Target Detection</h4>
+    <p>Designed a statistical analysis framework to evaluate and enhance a machine vision system’s ability to detect targets in noisy environments. The project focused on improving classification of "target present" vs. "target absent" data using signal modeling and performance analysis techniques. Key contributions include:</p>
+    <ul>
+        <li>Conducted ROC analysis to find the optimal detection threshold and quantify system performance using AUC</li>
+        <li>Modeled data distributions using hypothesis testing and identified Gamma (target absent) and Rician (target present) as best fits via χ² tests</li>
+        <li>Applied both parametric and non-parametric bootstrapping to validate statistical robustness and estimate confidence intervals</li>
+        <li>Enhanced system accuracy using signal processing techniques such as arithmetic mean, geometric mean, and max-value filtering</li>
+        <li>Achieved performance improvement from baseline AUC of 0.906 to 0.985, with error rate reduced from 21/130 to 7/130 and PPV increased to 0.934</li>
+    </ul>
+  <p><strong>Technologies:</strong> MATLAB, Statistical Analysis: ROC Analysis, Bootstrapping, Hypothesis Testing, Probability Density Functions(Nakagami, Rician, Gamma, Lognormal, Weibull), Bayes Rule, Signal Processing</p>
 </div>`
+    
 ];
 
     // Add click handlers to all Read More buttons
