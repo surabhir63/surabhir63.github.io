@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </ul>
     <p>Through these projects, I gained a deep understanding of how computers operate at the hardware level. I built skills in low-level programming (assembly language), digital logic simulation, virtual machine architecture, memory management, and compiler/interpreter design using Python.</p>
     <br>
-    <p><strong>Technologies:</strong> Python</p>
+    <p><strong>Technologies:</strong> Python, Hack Assembly, Hack HDL (Nand2Tetris)</p>
 </div>`,
 
                        
